@@ -17,9 +17,9 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://pb-og-image.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: '',
+  socialLink: 'https://twitter.com/pembebasan_org',
   seo: {
-    keywords: ['Blog', 'Gerakan', 'Pembebasan', 'Demokrasi', 'Organisasi Mahasiswa', 'Kerakyatan'],
+    keywords: ['Blog', 'Gerakan', 'Pembebasan', 'Demokrasi', 'Organisasi Mahasiswa', 'Kerakyatan', 'Feminis', 'Ekologis', 'Demokratis'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
