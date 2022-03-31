@@ -6,11 +6,11 @@ import { useLocale } from '@/lib/locale'
 const NavBar = () => {
   const locale = useLocale()
   const links = [
-    { id: 0, name: 'Artikel', to: BLOG.path || '/tag/Artikel', show: true },
-    { id: 1, name: 'Sikap', to: BLOG.path || '/tag/Sikap', show: true },
-    { id: 2, name: 'Kegiatan', to: BLOG.path || '/tag/Kegiatan', show: true },
-    { id: 3, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 4, name: locale.NAV.SEARCH, to: '/search', show: true }
+    { id: 0, name: 'Home', to: BLOG.path || '/', show: true },
+    { id: 1, name: 'Artikel', to: BLOG.path || '/tag/Artikel', show: true },
+    { id: 2, name: 'Sikap', to: BLOG.path || '/tag/Sikap', show: true },
+    { id: 3, name: 'Kegiatan', to: BLOG.path || '/tag/Kegiatan', show: true },
+    { id: 4, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout }
   ]
   return (
     <div className="flex-shrink-0">
