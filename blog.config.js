@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'PEMBEBASAN.ORG',
-  author: 'Pembebasan',
+  author: 'PEMBEBASAN',
   email: '',
   link: 'https://pembebasan.org',
   description: 'Situs resmi Pusat Perjuangan Mahasiswa untuk Pembebasan Nasional.',
