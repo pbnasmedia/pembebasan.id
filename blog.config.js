@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'PEMBEBASAN.ORG',
+  title: 'PEMBEBASAN.ORG | Bacaan buat yang Bergerak!',
   author: 'PEMBEBASAN',
   email: '',
   link: 'https://pembebasan.org',
