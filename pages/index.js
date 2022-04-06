@@ -22,10 +22,9 @@ export async function getStaticProps () {
 const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
-      <h1 className="font-bold text-3xl text-black dark:text-white">PEMBEBASAN.ORG</h1>
+      <h1 className="font-bold text-3xl text-black dark:text-white mb-6">PEMBEBASAN.ORG</h1>
       <div className="md:block leading-8 mb-8 text-gray-700 dark:text-gray-300">
-        <p>PEMBEBASAN.ORG merupakan situs web yang dikelola oleh Pusat Perjuangan Mahasiswa untuk Pembebasan Nasional (PEMBEBASAN).</p>
-        <p>PEMBEBASAN adalah organisasi mahasiswa berkarakter kerakyatan, demokratis, feminis dan ekologis.</p>
+        <p>PEMBEBASAN.ORG merupakan situs web yang dikelola oleh Pusat Perjuangan Mahasiswa untuk Pembebasan Nasional (PEMBEBASAN), organisasi mahasiswa berkarakter kerakyatan, demokratis, feminis dan ekologis.</p>
       </div>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
