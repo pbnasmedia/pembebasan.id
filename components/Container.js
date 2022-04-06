@@ -76,14 +76,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
             !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
           }`}
         >
-        <h1 className="text-lg md:text-2xl font-medium mb-2 text-black dark:text-gray-100">
-        Pembebasan
-        </h1>
-        <main>
-            <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
-              Pembebasan.org adalah situs web yang dikelola oleh Pusat Perjuangan Mahasiswa untuk Pembebasan Nasional.
-            </p>
-        </main>
           {children}
         </main>
         <Footer fullWidth={fullWidth} />
