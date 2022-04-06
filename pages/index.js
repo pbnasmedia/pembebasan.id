@@ -24,11 +24,9 @@ const blog = ({ postsToShow, page, showNext }) => {
     <h1 className="text-lg md:text-3xl font-bold mb-2 text-black dark:text-gray-100">
         Pembebasan
     </h1>
-    <main>
-        <p className="md:block leading-8 mb-6 text-gray-700 dark:text-gray-300">
-            Pembebasan.org adalah situs web yang dikelola oleh Pusat Perjuangan Mahasiswa untuk Pembebasan Nasional.
-        </p>
-    </main>
+    <p className="md:block leading-8 mb-6 text-gray-700 dark:text-gray-300">
+        Pembebasan.org adalah situs web yang dikelola oleh Pusat Perjuangan Mahasiswa untuk Pembebasan Nasional.
+    </p>
     <Container title={BLOG.title} description={BLOG.description}>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
